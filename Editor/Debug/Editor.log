@@ -1,0 +1,41 @@
+﻿生成启动时间为 2015/11/9 19:15:48。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Editor\Editor.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Editor.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\xstring.h(119): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\xstring.h(220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\xstring.h(225): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\xstring.h(270): warning C4018: “<”: 有符号/无符号不匹配
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\texteditor.h(77): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\texteditor.h(106): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\texteditor.h(143): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\texteditor.h(134): warning C4101: “deleteflag”: 未引用的局部变量
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\texteditor.h(164): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\texteditor.h(224): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2010\projects\editor\editor\texteditor.h(415): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Editor.exe.embed.manifest.res" Debug\Editor_manifest.rc 
+       Link:
+         e:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Debug\Editor.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Editor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Debug\Editor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Debug\Editor.lib" /MACHINE:X86 Debug\Editor.exe.embed.manifest.res
+         Debug\Main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Editor.exe.embed.manifest" /manifest Debug\Editor.exe.intermediate.manifest e:\VS2010\VC\Include\Manifest\dpiaware.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Editor.exe.embed.manifest.res" Debug\Editor_manifest.rc 
+       LinkEmbedManifest:
+         e:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Debug\Editor.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Editor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Debug\Editor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Debug\Editor.lib" /MACHINE:X86 Debug\Editor.exe.embed.manifest.res
+         Debug\Main.obj
+         Editor.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Debug\Editor.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Editor.unsuccessfulbuild”。
+         正在对“Debug\Editor.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Editor\Editor\Editor.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.11
